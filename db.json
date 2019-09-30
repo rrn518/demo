@@ -1,14 +1,7 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "patients": [
+    { "id": 1, "patid": "AA1111", "surname": "Ryan", "age": 25 },
+    { "id": 2, "patid": "BB2222", "surname": "Smith", "age": 35 },
+    { "id": 3, "patid": "CC3333", "surname": "Jones", "age": 45 }
+  ]
 }
