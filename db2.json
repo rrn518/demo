@@ -1,0 +1,5 @@
+patients = [
+    {"id": 1, "name": 'Rich'},
+    {"id": 2, "name" 'Shaz'},
+    {"id": 3, "name": 'Eleanor'}
+]
