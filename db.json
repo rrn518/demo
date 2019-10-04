@@ -1,31 +1,83 @@
 {
-  "patients": [
-  {
-    "id": 1,
-    "patid": "AA1111",
-    "surname": "Ryan",
-    "firstname": "Richard",
-    "dob": "12/05/1994",
-    "nino": "QQ999998A",
-    "age": 25
-  },
-  {
-    "id": 2,
-    "patid": "BB2222",
-    "surname": "Smith",
-    "firstname": "John",
-    "dob": "22/06/1984",
-    "nino": "QQ987654A",
-    "age": 35
-  },
-  {
-    "id": 3,
-    "patid": "CC3333",
-    "surname": "Jones",
-    "firstname": "John",
-    "dob": "02/04/1974",
-    "nino": "QQ123456A",
-    "age": 45
-  }
+  "patients": [{
+      "id": 1,
+      "patid": "AA1111",
+      "surname": "Ryan",
+      "firstname": "Richard",
+      "dob": "12/05/1994",
+      "nino": "QQ999998A",
+      "age": 25,
+      "address": {
+        "line1": "5 Acacia Avenue",
+        "line2": "Beauchief",
+        "line3": "",
+        "city": "Sheffield",
+        "postcode": "S8 7TG"
+      }
+    },
+    {
+      "id": 2,
+      "patid": "BB2222",
+      "surname": "Smith",
+      "firstname": "John",
+      "dob": "22/06/1984",
+      "nino": "QQ987654A",
+      "age": 35,
+      "address": {
+        "line1": "51 School Lane",
+        "line2": "Greenhill",
+        "line3": "",
+        "city": "Sheffield",
+        "postcode": "S8 8GH"
+      }
+    },
+    {
+      "id": 3,
+      "patid": "CC3333",
+      "surname": "Jones",
+      "firstname": "John",
+      "dob": "02/04/1974",
+      "nino": "QQ123456A",
+      "age": 45,
+      "address": {
+        "line1": "2A Church Drive",
+        "line2": "Fulwood",
+        "line3": "",
+        "city": "Sheffield",
+        "postcode": "S10 5BS"
+      }
+    },
+    {
+      "id": 4,
+      "patid": "DD4444",
+      "surname": "Blue",
+      "firstname": "Barry",
+      "dob": "02/10/1954",
+      "nino": "QQ000001A",
+      "age": 65,
+      "address": {
+        "line1": "22 Quiet Lane",
+        "line2": "Fulwood",
+        "line3": "",
+        "city": "Sheffield",
+        "postcode": "S10 5JS"
+      }
+    },
+    {
+      "id": 5,
+      "patid": "EE5555",
+      "surname": "Green",
+      "firstname": "Suzi",
+      "dob": "10/06/1970",
+      "nino": "QQ000002A",
+      "age": 49,
+      "address": {
+        "line1": "West View",
+        "line2": "55 Abbey View",
+        "line3": "Millhouses",
+        "city": "Sheffield",
+        "postcode": "S7 5RT"
+      }
+    }
   ]
 }
